@@ -1,0 +1,86 @@
+config:
+    target: "{{ $env.TARGET }}"
+    phases:
+        - duration: 300 # 5분 동안 테스트 실행
+          arrivalCount: 200 # 총 200명의 가상 사용자
+    processor: "./processor.js"
+    defaults:
+        headers:
+            Content-Type: "application/json"
+
+scenarios:
+    # 1. 질문 목록 조회 (40%)
+    - name: "Question List Refresh"
+      weight: 40
+      variables:
+          sessionId: "{{ $env.SESSION_ID }}"
+          token: "{{ $env.TOKEN }}"
+      flow:
+          - think: 1
+          - loop:
+                - function: "refreshQuestionList"
+                - get:
+                      url: "/api/questions?sessionId={{ $env.SESSION_ID }}&token={{ $env.TOKEN }}"
+                      afterResponse: "trackLatency"
+            count: 3
+
+    # 2. 질문 작성 (30%)
+    - name: "Create Questions"
+      weight: 30
+      variables:
+          sessionId: "{{ $env.SESSION_ID }}"
+          token: "{{ $env.TOKEN }}"
+      flow:
+          - think: 1
+          - loop:
+                - function: "createQuestion"
+                - post:
+                      url: "/api/questions"
+                      json:
+                          sessionId: "{{ $env.SESSION_ID }}"
+                          token: "{{ $env.TOKEN }}"
+                          body: "{{ questionBody }}"
+                      afterResponse: "trackLatency"
+            count: 2
+
+    # 3. 답변 작성 (20%)
+    - name: "Create Replies"
+      weight: 20
+      variables:
+          sessionId: "{{ $env.SESSION_ID }}"
+          token: "{{ $env.TOKEN }}"
+      flow:
+          - think: 1
+          - loop:
+                - get:
+                      url: "/api/questions?sessionId={{ $env.SESSION_ID }}&token={{ $env.TOKEN }}"
+                      afterResponse: "trackLatency"
+                - function: "createReply"
+                - post:
+                      url: "/api/replies"
+                      json:
+                          questionId: { { $env.QUESTION_ID } }
+                          sessionId: "{{ $env.SESSION_ID }}"
+                          token: "{{ $env.TOKEN }}"
+                          body: "{{ replyBody }}"
+                      afterResponse: "trackLatency"
+            count: 2
+
+    # 4. 좋아요 (50%)
+    - name: "Toggle Likes"
+      weight: 50
+      variables:
+          sessionId: "{{ $env.SESSION_ID }}"
+          token: "{{ $env.TOKEN }}"
+      flow:
+          - get:
+                url: "/api/questions?sessionId={{ $env.SESSION_ID }}&token={{ $env.TOKEN }}"
+                afterResponse: "trackLatency"
+          - function: "toggleLikes"
+          - think: 1
+          - post:
+                url: "/api/questions/{{ $env.QUESTION_ID }}/likes"
+                json:
+                    sessionId: "{{ $env.SESSION_ID }}"
+                    token: "{{ $env.TOKEN }}"
+                afterResponse: "trackLatency"

@@ -1,0 +1,1451 @@
+{
+    "aggregate": {
+        "timestamp": "2025-01-14T14:31:49.926Z",
+        "scenariosCreated": 200,
+        "scenariosCompleted": 200,
+        "requestsCompleted": 510,
+        "latency": {
+            "min": 17.8,
+            "max": 322.4,
+            "median": 118.6,
+            "p95": 204.2,
+            "p99": 235.7
+        },
+        "rps": {
+            "count": 510,
+            "mean": 1.69
+        },
+        "scenarioDuration": {
+            "min": 1060.2,
+            "max": 16886.5,
+            "median": 1331.5,
+            "p95": 16757.7,
+            "p99": 16794.9
+        },
+        "scenarioCounts": {
+            "Question List Refresh": 62,
+            "Create Questions": 35,
+            "Create Replies": 24,
+            "Toggle Likes": 79
+        },
+        "errors": {},
+        "codes": {
+            "200": 313,
+            "201": 197
+        },
+        "matches": 0,
+        "customStats": {},
+        "counters": {},
+        "scenariosAvoided": 0,
+        "phases": [
+            {
+                "duration": 300,
+                "arrivalCount": 200
+            }
+        ]
+    },
+    "intermediate": [
+        {
+            "timestamp": "2025-01-14T14:26:53.305Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 2,
+            "requestsCompleted": 8,
+            "latency": {
+                "min": 23.3,
+                "max": 209.9,
+                "median": 113.9,
+                "p95": 209.9,
+                "p99": 209.9
+            },
+            "rps": {
+                "count": 8,
+                "mean": 1.81
+            },
+            "scenarioDuration": {
+                "min": 1243.4,
+                "max": 1443.9,
+                "median": 1343.7,
+                "p95": 1443.9,
+                "p99": 1443.9
+            },
+            "scenarioCounts": {
+                "Question List Refresh": 4,
+                "Create Questions": 1,
+                "Create Replies": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 4,
+                "201": 4
+            },
+            "matches": 0,
+            "latencies": [
+                119147300, 23261700, 209861600, 149202100, 31469100, 108686500,
+                24858900, 162004900
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 4,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:27:03.312Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 7,
+            "requestsCompleted": 19,
+            "latency": {
+                "min": 19.2,
+                "max": 226.8,
+                "median": 122.3,
+                "p95": 224.8,
+                "p99": 226.8
+            },
+            "rps": {
+                "count": 19,
+                "mean": 2.23
+            },
+            "scenarioDuration": {
+                "min": 1096.3,
+                "max": 16730.9,
+                "median": 1307.5,
+                "p95": 16730.9,
+                "p99": 16730.9
+            },
+            "scenarioCounts": {
+                "Create Questions": 2,
+                "Toggle Likes": 4,
+                "Question List Refresh": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 12,
+                "201": 7
+            },
+            "matches": 0,
+            "latencies": [
+                68787300, 19626300, 161855900, 226757600, 119237800, 30175300,
+                122276800, 162258800, 222342300, 27813500, 121165500, 102110100,
+                19227400, 154951000, 196160200, 24487200, 124226500, 140767900,
+                190282500
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 4,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:27:13.310Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 8,
+            "requestsCompleted": 19,
+            "latency": {
+                "min": 19.8,
+                "max": 236.3,
+                "median": 105.1,
+                "p95": 211.7,
+                "p99": 236.3
+            },
+            "rps": {
+                "count": 21,
+                "mean": 2.16
+            },
+            "scenarioDuration": {
+                "min": 1074.5,
+                "max": 16703.5,
+                "median": 1350.7,
+                "p95": 16703.5,
+                "p99": 16703.5
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 3,
+                "Create Replies": 2,
+                "Create Questions": 1,
+                "Question List Refresh": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 10,
+                "201": 9
+            },
+            "matches": 0,
+            "latencies": [
+                116084100, 24626500, 137032300, 23701300, 105119700, 236259600,
+                22874000, 109447100, 40944400, 137521800, 44192700, 19797500,
+                143810200, 181736800, 25837900, 140293900, 24666800, 106678400,
+                24259200
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 3,
+            "pendingRequests": 2,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:27:23.324Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 5,
+            "requestsCompleted": 13,
+            "latency": {
+                "min": 19.3,
+                "max": 283.9,
+                "median": 119.6,
+                "p95": 270.9,
+                "p99": 283.9
+            },
+            "rps": {
+                "count": 11,
+                "mean": 1.27
+            },
+            "scenarioDuration": {
+                "min": 1066.9,
+                "max": 16735.6,
+                "median": 1243.5,
+                "p95": 16735.6,
+                "p99": 16735.6
+            },
+            "scenarioCounts": {
+                "Create Questions": 2,
+                "Question List Refresh": 2,
+                "Toggle Likes": 2
+            },
+            "errors": {},
+            "codes": {
+                "200": 7,
+                "201": 6
+            },
+            "matches": 0,
+            "latencies": [
+                185635200, 283881700, 22170900, 72345700, 47409200, 197373800,
+                41285300, 19341600, 143733100, 24434100, 155134800, 166870700,
+                119565900
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 4,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:27:33.324Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 8,
+            "requestsCompleted": 22,
+            "latency": {
+                "min": 23.3,
+                "max": 232.4,
+                "median": 113.3,
+                "p95": 203,
+                "p99": 232.4
+            },
+            "rps": {
+                "count": 22,
+                "mean": 2.25
+            },
+            "scenarioDuration": {
+                "min": 1229.3,
+                "max": 16710.2,
+                "median": 1353.2,
+                "p95": 16710.2,
+                "p99": 16710.2
+            },
+            "scenarioCounts": {
+                "Create Replies": 2,
+                "Toggle Likes": 4,
+                "Question List Refresh": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 14,
+                "201": 8
+            },
+            "matches": 0,
+            "latencies": [
+                25407700, 163159000, 160346800, 23752700, 110531600, 24917700,
+                131497300, 23303300, 109273900, 117230700, 116068600, 148892300,
+                24057600, 107389800, 27143200, 148735200, 24331500, 140447800,
+                28317300, 145238700, 183390600, 232445000
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 3,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:27:43.334Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 7,
+            "requestsCompleted": 16,
+            "latency": {
+                "min": 22.3,
+                "max": 218.9,
+                "median": 114.9,
+                "p95": 213.1,
+                "p99": 218.9
+            },
+            "rps": {
+                "count": 18,
+                "mean": 1.95
+            },
+            "scenarioDuration": {
+                "min": 1226.1,
+                "max": 16758.7,
+                "median": 1317.1,
+                "p95": 16758.7,
+                "p99": 16758.7
+            },
+            "scenarioCounts": {
+                "Question List Refresh": 1,
+                "Toggle Likes": 5,
+                "Create Replies": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 9,
+                "201": 7
+            },
+            "matches": 0,
+            "latencies": [
+                33764400, 168302500, 185092000, 27566800, 124906500, 133435700,
+                28088400, 104912300, 22294400, 126594000, 23181600, 170639400,
+                199526200, 31725900, 218892900, 25114500
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 3,
+            "pendingRequests": 2,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:27:53.343Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 7,
+            "requestsCompleted": 15,
+            "latency": {
+                "min": 20.9,
+                "max": 218.1,
+                "median": 111.2,
+                "p95": 207.9,
+                "p99": 218.1
+            },
+            "rps": {
+                "count": 13,
+                "mean": 1.49
+            },
+            "scenarioDuration": {
+                "min": 1109.1,
+                "max": 16740.7,
+                "median": 1342.9,
+                "p95": 16740.7,
+                "p99": 16740.7
+            },
+            "scenarioCounts": {
+                "Create Replies": 1,
+                "Toggle Likes": 2,
+                "Question List Refresh": 2,
+                "Create Questions": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 8,
+                "201": 7
+            },
+            "matches": 0,
+            "latencies": [
+                158726000, 218069300, 32853900, 126688200, 141910500, 24249700,
+                126768800, 24988800, 146176000, 46000800, 177487600, 22452400,
+                111206100, 76556800, 20919200
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 2,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:28:03.346Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 3,
+            "requestsCompleted": 10,
+            "latency": {
+                "min": 23.4,
+                "max": 224.7,
+                "median": 139.3,
+                "p95": 224.7,
+                "p99": 224.7
+            },
+            "rps": {
+                "count": 10,
+                "mean": 1.05
+            },
+            "scenarioDuration": {
+                "min": 1266.1,
+                "max": 1336.5,
+                "median": 1332,
+                "p95": 1336.5,
+                "p99": 1336.5
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 3,
+                "Question List Refresh": 3,
+                "Create Replies": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 7,
+                "201": 3
+            },
+            "matches": 0,
+            "latencies": [
+                196347700, 26130700, 148444400, 130164300, 46198200, 207350800,
+                113559500, 187684400, 224694000, 23357100
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 6,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:28:13.361Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 9,
+            "requestsCompleted": 26,
+            "latency": {
+                "min": 19.9,
+                "max": 187.7,
+                "median": 130.8,
+                "p95": 185.7,
+                "p99": 187.7
+            },
+            "rps": {
+                "count": 26,
+                "mean": 2.67
+            },
+            "scenarioDuration": {
+                "min": 1219.7,
+                "max": 16756.7,
+                "median": 1429.4,
+                "p95": 16756.7,
+                "p99": 16756.7
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 4,
+                "Question List Refresh": 1,
+                "Create Replies": 1,
+                "Create Questions": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 18,
+                "201": 8
+            },
+            "matches": 0,
+            "latencies": [
+                132361900, 151591200, 36628800, 131245400, 23475500, 142982700,
+                185187600, 23702900, 138380100, 159550400, 113914200, 164856700,
+                19886200, 131043300, 155231200, 122205500, 24760300, 165925700,
+                130469600, 23785000, 154857800, 187723000, 125263700, 24170700,
+                119792300, 25018600
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 4,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:28:23.367Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 8,
+            "requestsCompleted": 14,
+            "latency": {
+                "min": 19.5,
+                "max": 190.9,
+                "median": 119.9,
+                "p95": 188.5,
+                "p99": 190.9
+            },
+            "rps": {
+                "count": 15,
+                "mean": 1.65
+            },
+            "scenarioDuration": {
+                "min": 1060.2,
+                "max": 16692.6,
+                "median": 1293.5,
+                "p95": 16692.6,
+                "p99": 16692.6
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 4,
+                "Question List Refresh": 1,
+                "Create Questions": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 8,
+                "201": 6
+            },
+            "matches": 0,
+            "latencies": [
+                37154900, 19505500, 118564500, 190897800, 21878100, 131286400,
+                157575400, 130121200, 27675900, 178714600, 22894300, 139186200,
+                26543200, 121306500
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 2,
+            "pendingRequests": 1,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:28:33.378Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 6,
+            "requestsCompleted": 14,
+            "latency": {
+                "min": 20.4,
+                "max": 197,
+                "median": 101.6,
+                "p95": 190.4,
+                "p99": 197
+            },
+            "rps": {
+                "count": 13,
+                "mean": 1.3
+            },
+            "scenarioDuration": {
+                "min": 1130.6,
+                "max": 1323.9,
+                "median": 1244.6,
+                "p95": 1323.9,
+                "p99": 1323.9
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 5,
+                "Question List Refresh": 2
+            },
+            "errors": {},
+            "codes": {
+                "200": 7,
+                "201": 7
+            },
+            "matches": 0,
+            "latencies": [
+                94399100, 20432600, 130105100, 21135100, 164257900, 56495300,
+                162798400, 196971800, 24036000, 136962700, 21234200, 129491600,
+                108741000, 24127500
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 3,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:28:43.392Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 6,
+            "requestsCompleted": 18,
+            "latency": {
+                "min": 23,
+                "max": 226.1,
+                "median": 105.7,
+                "p95": 203.7,
+                "p99": 226.1
+            },
+            "rps": {
+                "count": 18,
+                "mean": 2.22
+            },
+            "scenarioDuration": {
+                "min": 1114.2,
+                "max": 16763.2,
+                "median": 1383.1,
+                "p95": 16763.2,
+                "p99": 16763.2
+            },
+            "scenarioCounts": {
+                "Create Replies": 2,
+                "Toggle Likes": 2,
+                "Create Questions": 1,
+                "Question List Refresh": 2
+            },
+            "errors": {},
+            "codes": {
+                "200": 10,
+                "201": 8
+            },
+            "matches": 0,
+            "latencies": [
+                144387900, 22961800, 102908400, 25469900, 149226800, 226103300,
+                40042500, 154905000, 170033300, 24631200, 154454000, 73916500,
+                24695900, 130904700, 133198000, 24598600, 108507500, 26142800
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 4,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:28:53.392Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 5,
+            "requestsCompleted": 13,
+            "latency": {
+                "min": 25.8,
+                "max": 201.7,
+                "median": 120.9,
+                "p95": 200.4,
+                "p99": 201.7
+            },
+            "rps": {
+                "count": 13,
+                "mean": 1.39
+            },
+            "scenarioDuration": {
+                "min": 1108.4,
+                "max": 16662.8,
+                "median": 1331.1,
+                "p95": 16662.8,
+                "p99": 16662.8
+            },
+            "scenarioCounts": {
+                "Question List Refresh": 3,
+                "Toggle Likes": 2,
+                "Create Questions": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 9,
+                "201": 4
+            },
+            "matches": 0,
+            "latencies": [
+                113516200, 117621100, 170265700, 28922300, 153667500, 76915900,
+                25760300, 120929700, 192927800, 150585500, 201695800, 26485800,
+                135722300
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 5,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:29:03.398Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 7,
+            "requestsCompleted": 16,
+            "latency": {
+                "min": 20.9,
+                "max": 206.8,
+                "median": 126.6,
+                "p95": 199.7,
+                "p99": 206.8
+            },
+            "rps": {
+                "count": 16,
+                "mean": 1.67
+            },
+            "scenarioDuration": {
+                "min": 1081.1,
+                "max": 16731.7,
+                "median": 1279.2,
+                "p95": 16731.7,
+                "p99": 16731.7
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 3,
+                "Question List Refresh": 2,
+                "Create Questions": 1,
+                "Create Replies": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 11,
+                "201": 5
+            },
+            "matches": 0,
+            "latencies": [
+                163758800, 104281700, 32543300, 183055900, 206806100, 120383700,
+                23621600, 143881200, 22478200, 131957600, 139100500, 142882300,
+                140572400, 55652300, 20936900, 121224900
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 5,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:29:13.402Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 7,
+            "requestsCompleted": 22,
+            "latency": {
+                "min": 22,
+                "max": 230.6,
+                "median": 118.1,
+                "p95": 208.8,
+                "p99": 230.6
+            },
+            "rps": {
+                "count": 23,
+                "mean": 2.34
+            },
+            "scenarioDuration": {
+                "min": 1296.6,
+                "max": 16752,
+                "median": 1443.5,
+                "p95": 16752,
+                "p99": 16752
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 4,
+                "Question List Refresh": 2,
+                "Create Replies": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 15,
+                "201": 7
+            },
+            "matches": 0,
+            "latencies": [
+                114509900, 160903800, 27433100, 117722800, 23047000, 137523600,
+                171460600, 39407000, 121536000, 189058200, 230565400, 36911200,
+                115418300, 133710700, 184112800, 28502700, 118458900, 24808500,
+                151047100, 194346500, 117496700, 21975900
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 5,
+            "pendingRequests": 1,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:29:23.402Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 9,
+            "requestsCompleted": 19,
+            "latency": {
+                "min": 21.3,
+                "max": 233.3,
+                "median": 148.6,
+                "p95": 224.5,
+                "p99": 233.3
+            },
+            "rps": {
+                "count": 18,
+                "mean": 2.02
+            },
+            "scenarioDuration": {
+                "min": 1244.1,
+                "max": 16886.5,
+                "median": 1327.9,
+                "p95": 16886.5,
+                "p99": 16886.5
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 6
+            },
+            "errors": {},
+            "codes": {
+                "200": 13,
+                "201": 6
+            },
+            "matches": 0,
+            "latencies": [
+                130220400, 33416700, 193829700, 233258100, 213691000, 26724300,
+                204238000, 140557000, 25277200, 154840300, 190799000, 29254700,
+                149164200, 129788500, 21252800, 157352100, 25421500, 148581100,
+                197069700
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 2,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:29:33.408Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 6,
+            "requestsCompleted": 10,
+            "latency": {
+                "min": 20.4,
+                "max": 151.5,
+                "median": 72.3,
+                "p95": 151.5,
+                "p99": 151.5
+            },
+            "rps": {
+                "count": 10,
+                "mean": 1.02
+            },
+            "scenarioDuration": {
+                "min": 1112.5,
+                "max": 16780,
+                "median": 1309,
+                "p95": 16780,
+                "p99": 16780
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 2,
+                "Create Questions": 2,
+                "Question List Refresh": 3
+            },
+            "errors": {},
+            "codes": {
+                "200": 3,
+                "201": 7
+            },
+            "matches": 0,
+            "latencies": [
+                32950000, 151471400, 73941900, 136202900, 79872700, 24430900,
+                139115000, 22608700, 70719200, 20360700
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 3,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:29:43.417Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 5,
+            "requestsCompleted": 18,
+            "latency": {
+                "min": 20.4,
+                "max": 201.8,
+                "median": 107.4,
+                "p95": 185,
+                "p99": 201.8
+            },
+            "rps": {
+                "count": 19,
+                "mean": 2.34
+            },
+            "scenarioDuration": {
+                "min": 1065.3,
+                "max": 1417,
+                "median": 1252.6,
+                "p95": 1417,
+                "p99": 1417
+            },
+            "scenarioCounts": {
+                "Create Questions": 2,
+                "Question List Refresh": 1,
+                "Create Replies": 1,
+                "Toggle Likes": 3
+            },
+            "errors": {},
+            "codes": {
+                "200": 10,
+                "201": 8
+            },
+            "matches": 0,
+            "latencies": [
+                96773400, 27115300, 150216500, 135000700, 146287800, 24039900,
+                109085500, 23746500, 159918700, 201802200, 24052800, 142788000,
+                116459500, 20395900, 131372100, 105809800, 38061400, 20562300
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 5,
+            "pendingRequests": 1,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:29:53.418Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 9,
+            "requestsCompleted": 21,
+            "latency": {
+                "min": 22.6,
+                "max": 165.6,
+                "median": 116.7,
+                "p95": 159.5,
+                "p99": 165.6
+            },
+            "rps": {
+                "count": 20,
+                "mean": 2.14
+            },
+            "scenarioDuration": {
+                "min": 1236.3,
+                "max": 16674.1,
+                "median": 1443.4,
+                "p95": 16674.1,
+                "p99": 16674.1
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 2,
+                "Question List Refresh": 2,
+                "Create Replies": 2
+            },
+            "errors": {},
+            "codes": {
+                "200": 14,
+                "201": 7
+            },
+            "matches": 0,
+            "latencies": [
+                133965900, 122479800, 22695700, 154613400, 30611700, 114274900,
+                138203100, 113057600, 154216900, 24562600, 109724000, 22649300,
+                120147800, 150905400, 26366400, 116707600, 29430800, 125703400,
+                23779000, 123009300, 165578700
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 2,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:30:03.430Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 3,
+            "requestsCompleted": 11,
+            "latency": {
+                "min": 23,
+                "max": 171,
+                "median": 138.5,
+                "p95": 170.6,
+                "p99": 171
+            },
+            "rps": {
+                "count": 11,
+                "mean": 1.35
+            },
+            "scenarioDuration": {
+                "min": 1298,
+                "max": 16684.3,
+                "median": 1431.9,
+                "p95": 16684.3,
+                "p99": 16684.3
+            },
+            "scenarioCounts": {
+                "Question List Refresh": 4,
+                "Toggle Likes": 1,
+                "Create Replies": 1,
+                "Create Questions": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 8,
+                "201": 3
+            },
+            "matches": 0,
+            "latencies": [
+                163764500, 27465800, 118332200, 149819100, 143789000, 25551200,
+                118139100, 23005600, 146516000, 138487600, 170968800
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 6,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:30:13.436Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 7,
+            "requestsCompleted": 23,
+            "latency": {
+                "min": 19.9,
+                "max": 192.2,
+                "median": 118.6,
+                "p95": 166.8,
+                "p99": 192.2
+            },
+            "rps": {
+                "count": 24,
+                "mean": 2.43
+            },
+            "scenarioDuration": {
+                "min": 1077.8,
+                "max": 16658.3,
+                "median": 1288.8,
+                "p95": 16658.3,
+                "p99": 16658.3
+            },
+            "scenarioCounts": {
+                "Create Questions": 2,
+                "Question List Refresh": 3,
+                "Toggle Likes": 1,
+                "Create Replies": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 14,
+                "201": 9
+            },
+            "matches": 0,
+            "latencies": [
+                126246200, 37260000, 19880700, 118290500, 52705700, 21244700,
+                153097500, 145609800, 125139000, 137588800, 192220200, 23151500,
+                118642000, 116672600, 146579000, 23203400, 120560800, 23449000,
+                143835600, 137107000, 63022600, 21106000, 123437700
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 6,
+            "pendingRequests": 1,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:30:23.443Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 8,
+            "requestsCompleted": 16,
+            "latency": {
+                "min": 21.9,
+                "max": 219.4,
+                "median": 117.8,
+                "p95": 206.7,
+                "p99": 219.4
+            },
+            "rps": {
+                "count": 15,
+                "mean": 1.74
+            },
+            "scenarioDuration": {
+                "min": 1086.1,
+                "max": 16734.4,
+                "median": 8968.5,
+                "p95": 16734.4,
+                "p99": 16734.4
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 4,
+                "Create Questions": 1,
+                "Question List Refresh": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 11,
+                "201": 5
+            },
+            "matches": 0,
+            "latencies": [
+                150404500, 219445500, 22260700, 119645800, 177104200, 118167900,
+                26309700, 115646000, 117451500, 41089400, 30090000, 129905900,
+                133546300, 21886800, 111929400, 163241600
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 4,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:30:33.458Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 6,
+            "requestsCompleted": 15,
+            "latency": {
+                "min": 21.4,
+                "max": 173.6,
+                "median": 108.4,
+                "p95": 173,
+                "p99": 173.6
+            },
+            "rps": {
+                "count": 15,
+                "mean": 1.51
+            },
+            "scenarioDuration": {
+                "min": 1094.6,
+                "max": 16658.1,
+                "median": 1386,
+                "p95": 16658.1,
+                "p99": 16658.1
+            },
+            "scenarioCounts": {
+                "Question List Refresh": 3,
+                "Create Questions": 2,
+                "Create Replies": 1,
+                "Toggle Likes": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 9,
+                "201": 6
+            },
+            "matches": 0,
+            "latencies": [
+                29736500, 104716200, 111949600, 170167100, 62109600, 21422900,
+                173570700, 37682200, 108410700, 30437800, 140073600, 31346000,
+                140429700, 171468400, 137147600
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 5,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:30:43.460Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 6,
+            "requestsCompleted": 17,
+            "latency": {
+                "min": 18.6,
+                "max": 205.5,
+                "median": 124,
+                "p95": 204.8,
+                "p99": 205.5
+            },
+            "rps": {
+                "count": 17,
+                "mean": 1.76
+            },
+            "scenarioDuration": {
+                "min": 1108.3,
+                "max": 16750.6,
+                "median": 1218.3,
+                "p95": 16750.6,
+                "p99": 16750.6
+            },
+            "scenarioCounts": {
+                "Question List Refresh": 3,
+                "Toggle Likes": 1,
+                "Create Questions": 2,
+                "Create Replies": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 10,
+                "201": 7
+            },
+            "matches": 0,
+            "latencies": [
+                73597400, 42752500, 123975900, 151499800, 203525200, 160942400,
+                205512700, 25214900, 70644100, 24328800, 114571900, 174450900,
+                132364900, 82007500, 18561000, 153865100, 137699900
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 6,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:30:53.470Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 7,
+            "requestsCompleted": 19,
+            "latency": {
+                "min": 25,
+                "max": 322.4,
+                "median": 128.9,
+                "p95": 283.2,
+                "p99": 322.4
+            },
+            "rps": {
+                "count": 19,
+                "mean": 2.07
+            },
+            "scenarioDuration": {
+                "min": 1284.3,
+                "max": 16774.7,
+                "median": 16661.4,
+                "p95": 16774.7,
+                "p99": 16774.7
+            },
+            "scenarioCounts": {
+                "Question List Refresh": 3,
+                "Toggle Likes": 3
+            },
+            "errors": {},
+            "codes": {
+                "200": 15,
+                "201": 4
+            },
+            "matches": 0,
+            "latencies": [
+                154341600, 28788100, 113259500, 25016800, 122919500, 111943600,
+                124775000, 117820100, 187502400, 216551000, 26020000, 207167500,
+                235378900, 322375500, 31259900, 164826600, 199252600, 222299300,
+                128912000
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 5,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:31:03.480Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 7,
+            "requestsCompleted": 17,
+            "latency": {
+                "min": 23.9,
+                "max": 189.9,
+                "median": 111.9,
+                "p95": 188.5,
+                "p99": 189.9
+            },
+            "rps": {
+                "count": 17,
+                "mean": 1.72
+            },
+            "scenarioDuration": {
+                "min": 1109.5,
+                "max": 16732.3,
+                "median": 1404.9,
+                "p95": 16732.3,
+                "p99": 16732.3
+            },
+            "scenarioCounts": {
+                "Create Questions": 2,
+                "Question List Refresh": 3,
+                "Create Replies": 1,
+                "Toggle Likes": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 11,
+                "201": 6
+            },
+            "matches": 0,
+            "latencies": [
+                24472300, 72849900, 31997100, 171331200, 124578900, 111888000,
+                134192500, 23927000, 106517200, 24407500, 106040300, 185917100,
+                126134800, 26825700, 134317100, 189941600, 135891100
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 5,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:31:13.486Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 5,
+            "requestsCompleted": 15,
+            "latency": {
+                "min": 21.6,
+                "max": 246,
+                "median": 132,
+                "p95": 222.6,
+                "p99": 246
+            },
+            "rps": {
+                "count": 15,
+                "mean": 1.55
+            },
+            "scenarioDuration": {
+                "min": 1089.6,
+                "max": 16792.1,
+                "median": 1339.2,
+                "p95": 16792.1,
+                "p99": 16792.1
+            },
+            "scenarioCounts": {
+                "Question List Refresh": 5,
+                "Toggle Likes": 1,
+                "Create Questions": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 10,
+                "201": 5
+            },
+            "matches": 0,
+            "latencies": [
+                48513100, 21589300, 150324900, 122944300, 245954100, 142924500,
+                23013100, 135300100, 134749800, 138694600, 132048200, 126429500,
+                45233800, 34669300, 152672700
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 7,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:31:23.494Z",
+            "scenariosCreated": 6,
+            "scenariosCompleted": 8,
+            "requestsCompleted": 22,
+            "latency": {
+                "min": 19.7,
+                "max": 167.4,
+                "median": 116.1,
+                "p95": 164.2,
+                "p99": 167.4
+            },
+            "rps": {
+                "count": 22,
+                "mean": 2.53
+            },
+            "scenarioDuration": {
+                "min": 1076.5,
+                "max": 16772.5,
+                "median": 1282.5,
+                "p95": 16772.5,
+                "p99": 16772.5
+            },
+            "scenarioCounts": {
+                "Create Questions": 4,
+                "Create Replies": 1,
+                "Question List Refresh": 1
+            },
+            "errors": {},
+            "codes": {
+                "200": 12,
+                "201": 10
+            },
+            "matches": 0,
+            "latencies": [
+                155393600, 161976900, 115555100, 53188500, 19658700, 140444400,
+                39316300, 20252500, 133284900, 121232200, 45197200, 21447100,
+                140539700, 131082700, 135424900, 31605300, 167445000, 24452800,
+                127835200, 116605700, 54351700, 21087800
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 5,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:31:33.501Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 9,
+            "requestsCompleted": 18,
+            "latency": {
+                "min": 17.8,
+                "max": 205.7,
+                "median": 120.1,
+                "p95": 192.1,
+                "p99": 205.7
+            },
+            "rps": {
+                "count": 18,
+                "mean": 1.85
+            },
+            "scenarioDuration": {
+                "min": 1069.3,
+                "max": 16733.9,
+                "median": 1304.2,
+                "p95": 16733.9,
+                "p99": 16733.9
+            },
+            "scenarioCounts": {
+                "Toggle Likes": 3,
+                "Question List Refresh": 2,
+                "Create Questions": 2
+            },
+            "errors": {},
+            "codes": {
+                "200": 11,
+                "201": 7
+            },
+            "matches": 0,
+            "latencies": [
+                121954200, 171254000, 121999000, 23317500, 131271900, 118235300,
+                142196700, 42586300, 17773800, 130800000, 24731300, 113337700,
+                88100500, 36203300, 171643700, 205749000, 136710300, 24887200
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 3,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:31:43.503Z",
+            "scenariosCreated": 7,
+            "scenariosCompleted": 8,
+            "requestsCompleted": 21,
+            "latency": {
+                "min": 19.6,
+                "max": 243.6,
+                "median": 106.3,
+                "p95": 221.3,
+                "p99": 243.6
+            },
+            "rps": {
+                "count": 21,
+                "mean": 2.56
+            },
+            "scenarioDuration": {
+                "min": 1090.1,
+                "max": 16729.9,
+                "median": 1408.8,
+                "p95": 16729.9,
+                "p99": 16729.9
+            },
+            "scenarioCounts": {
+                "Create Replies": 2,
+                "Create Questions": 2,
+                "Toggle Likes": 3
+            },
+            "errors": {},
+            "codes": {
+                "200": 11,
+                "201": 10
+            },
+            "matches": 0,
+            "latencies": [
+                137214900, 28181900, 115129100, 24059700, 119250800, 85619400,
+                19584800, 159198800, 243600100, 28462000, 170729800, 203128000,
+                22816200, 147923300, 24485900, 106311600, 22019700, 115828500,
+                53276400, 21990600, 156974700
+            ],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 2,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        },
+        {
+            "timestamp": "2025-01-14T14:31:49.915Z",
+            "scenariosCreated": 0,
+            "scenariosCompleted": 2,
+            "requestsCompleted": 3,
+            "latency": {
+                "min": 23.4,
+                "max": 145.9,
+                "median": 114.8,
+                "p95": 145.9,
+                "p99": 145.9
+            },
+            "rps": {
+                "count": 3,
+                "mean": 0.52
+            },
+            "scenarioDuration": {
+                "min": 1287.1,
+                "max": 16797.6,
+                "median": 9042.4,
+                "p95": 16797.6,
+                "p99": 16797.6
+            },
+            "scenarioCounts": {},
+            "errors": {},
+            "codes": {
+                "200": 2,
+                "201": 1
+            },
+            "matches": 0,
+            "latencies": [145939200, 23390100, 114848700],
+            "customStats": {},
+            "counters": {},
+            "concurrency": 0,
+            "pendingRequests": 0,
+            "scenariosAvoided": 0
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+config:
+    target: "{{ $env.TARGET }}"
+    phases:
+        - duration: 180
+          arrivalRate: 2
+          rampTo: 6
+    processor: "./processor.js"
+
+scenarios:
+    - name: "chat-message-load-test"
+      flow:
+          - function: "getToken"
+          - think: 2
+          - function: "createWSConnection"
+          - think: 3
+          - loop:
+                - function: "sendMessage"
+                - think: 0.1
+            count: 15

@@ -1,0 +1,19 @@
+{
+    "name": "loadtest",
+    "version": "1.0.0",
+    "main": "processor.js",
+    "scripts": {
+        "test:api": "artillery run api-scenario/scenario.yml --dotenv api-scenario/.env --output \"api-scenario/results/test-result.json\" > \"api-scenario/results/test.log\"",
+        "test:chatting": "artillery run chatting-scenario/scenario.yml --dotenv chatting-scenario/.env --output \"chatting-scenario/results/test-result.json\" > \"chatting-scenario/results/test.log\""
+    },
+    "author": "wlgh1553",
+    "license": "ISC",
+    "description": "Load testing with Artillery",
+    "dependencies": {
+        "@faker-js/faker": "^9.3.0",
+        "artillery": "^2.0.22",
+        "axios": "^1.7.9",
+        "dotenv": "^16.4.7",
+        "socket.io-client": "^4.8.1"
+    }
+}
